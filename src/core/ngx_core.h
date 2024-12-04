@@ -28,6 +28,7 @@ typedef struct ngx_command_s     ngx_command_t;
 #include <ngx_alloc.h>
 #include <ngx_palloc.h>
 #include <ngx_files.h>
+#include <ngx_times.h>
 #include <ngx_conf_file.h>
 
 #define LF     (u_char) 10
