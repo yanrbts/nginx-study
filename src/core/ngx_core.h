@@ -20,10 +20,14 @@ typedef struct ngx_command_s     ngx_command_t;
 #define  NGX_DECLINED   -5
 #define  NGX_ABORT      -6
 
+#include <ngx_time.h>
+#include <ngx_errno.h>
+#include <ngx_types.h>
 #include <ngx_string.h>
 #include <ngx_log.h>
 #include <ngx_alloc.h>
 #include <ngx_palloc.h>
+#include <ngx_files.h>
 #include <ngx_conf_file.h>
 
 #define LF     (u_char) 10
